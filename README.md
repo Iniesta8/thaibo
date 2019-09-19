@@ -1,2 +1,2 @@
-# yim-yim-abo
-Small cmdline tool to request current lunch menu of my favorite Thai restaurant
+# Thaibo (Thai Abo) 
+Thaibo is a small cmdline tool to request the current lunch menu of my favorite Thai restaurant called Yim Yim.
