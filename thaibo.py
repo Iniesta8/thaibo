@@ -9,7 +9,7 @@ soup = BeautifulSoup(source, "lxml")
 
 print('\n' + soup.h2.text + '\n')
 
-print("Gültig: " + soup.strong.text + " (" + soup.find("div", class_="content speisekarte").p.text + ")\n")
+print(soup.strong.text + '\n')
 
 for starter in soup.find_all("p", class_="speisenname"):
     print(starter.text)
